@@ -64,5 +64,117 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-All My SMS is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://allmysms.com/
+All My SMS provides a cloud‑based SMS marketing platform that enables businesses to send bulk SMS, voice messages, and manage contact lists. The service offers REST API endpoints for sending SMS, Mail2SMS, FTP‑based SMS, and integrates with tools like Adobe Campaign, Zapier, Google Calendar, and Blendr.io. It targets sectors such as public administrations, insurance, automotive, finance, education, real estate, media, fashion, healthcare, recruitment, e‑commerce, and tourism, offering pricing plans and a free trial.
+
+**Areas:** Company · SMS · Marketing · Communications · API
+
+## All My SMS on APIs.io
+
+Everything profiled for All My SMS is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/allmysms/](https://apis.io/providers/allmysms/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [All My SMS API](https://apis.io/apis/allmysms/allmysms-api/) — All My SMS API as documented publicly: 33 operations. Contract generated from the documentation by API Evangelist (2026-11-16); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetCampaignCampaignidResponse](https://apis.io/schemas/allmysms/allmysms-get-campaign-campaignid-response/)
+- [GetCampaignResponse](https://apis.io/schemas/allmysms/allmysms-get-campaign-response/)
+- [GetSubaccountSubaccountResponse](https://apis.io/schemas/allmysms/allmysms-get-subaccount-subaccount-response/)
+- [PostSmsSendBulkResponse](https://apis.io/schemas/allmysms/allmysms-post-sms-send-bulk-response/)
+- [PostSubaccountRequest2](https://apis.io/schemas/allmysms/allmysms-post-subaccount-request2/)
+- [PostVoiceSendBulkResponse](https://apis.io/schemas/allmysms/allmysms-post-voice-send-bulk-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Allmysms Context](https://apis.io/jsonld/allmysms/allmysms-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [All My SMS API Rules](https://apis.io/rules/allmysms/allmysms-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [All My SMS Authentication](https://apis.io/security/allmysms/allmysms-authentication/)
+- [All My SMS Domain Security](https://apis.io/security/allmysms/allmysms-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.allmysms.com/)
+- [Documentation](https://www.allmysms.com/api-sms/)
+- [API reference](https://www.allmysms.com/api-sms/)
+- [Pricing](https://www.allmysms.com/tarifs-sms/)
+- [Blog](https://www.allmysms.com/blog)
+- [Terms of service](https://www.allmysms.com/mentions/)
+- [Privacy policy](https://www.allmysms.com/confidentialite/)
+- [Status](https://status.allmysms.com/)
+
+## API Evangelist rating
+
+**Kin Score 44.8** — developing · rubric 0.27.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 44.7 |
+
+**Agent readiness 24.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 20.8** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/allmysms/](https://apis.io/providers/allmysms/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for All My SMS: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/allmysms/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
